@@ -1,7 +1,7 @@
 .gate{
     background-color: rgb(78, 4, 78);
 }
-button{
+.button{
     padding: 10px 30px 10px 30px;
     border-radius: 8px;
     color: #fff;
@@ -9,4 +9,8 @@ button{
     border: 2px solid #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+.leadworld{
+    color:rgb(190, 190, 2) !important;
+    font-weight: bolder;
 }

@@ -12,7 +12,7 @@ export default function Header() {
         <div>
     <Navbar collapseOnSelect expand="lg" className="gate" bg="" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">LEADWORLD</Navbar.Brand>
+        <Navbar.Brand href="#home" className="leadworld">LEADWORLD</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -28,7 +28,7 @@ export default function Header() {
             </NavDropdown>
           </Nav>
           <Nav>
-          <button>Become a leader</button>
+          <button className="button">Register for LPC Conference</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

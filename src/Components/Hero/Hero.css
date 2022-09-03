@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 .background-hero{
     background-color: rgb(78, 4, 78);
+    margin-bottom: 40px;
 }
 .hero{
     background-image: url(../../Asset/Images/hero1.jpg);
@@ -12,22 +13,23 @@
     background-blend-mode: overlay;
     text-align: center;
 }
-h1{
+.heading-hero{
     color: #fff;
     margin-top: 100px;
     margin-left: 20px;
-    font-size: 50px;
+    font-size: 42px;
     font-family: 'Roboto Slab', serif;
 }
-button{
+.join{
     margin-top: 35px;
-    padding: 10px 30px 10px 30px;
+    padding: 20px 30px 20px 30px;
     border-radius: 8px;
     color: #fff;
     background-color: rgb(78, 4, 78);
     border: 2px solid rgb(78, 4, 78);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    font-size: 21px;
 }
 
 @media screen and (max-width:800px) {
@@ -38,6 +40,17 @@ h1{
     margin-left: 20px;
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
+}
+.join{
+    margin-top: 35px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(78, 4, 78);
+    border: 2px solid rgb(78, 4, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
 }
 }
 
@@ -50,7 +63,16 @@ h1{
         font-size: 30px;
         font-family: 'Roboto Slab', serif;
     }
-    .break{
-        display: none;
+
+    .join{
+        margin-top: 35px;
+        padding: 10px 30px 10px 30px;
+        border-radius: 8px;
+        color: #fff;
+        background-color: rgb(78, 4, 78);
+        border: 2px solid rgb(78, 4, 78);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
     }
     }
