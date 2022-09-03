@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
-
+.background-hero{
+    background-color: rgb(78, 4, 78);
+}
 .hero{
     background-image: url(../../Asset/Images/hero1.jpg);
     width: 100%;
