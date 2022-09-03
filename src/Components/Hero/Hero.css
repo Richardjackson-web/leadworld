@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+.hero{
+    background-image: url(../../Asset/Images/hero1.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(53, 53, 53);
+    background-blend-mode: overlay;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(78, 4, 78);
+    border: 2px solid rgb(78, 4, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    
+h1{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+}

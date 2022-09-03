@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -9,7 +10,7 @@ export default function Header() {
   return (
     <div>
         <div>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" className="gate" bg="" variant="dark">
       <Container>
         <Navbar.Brand href="#home">LEADWORLD</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,10 +28,7 @@ export default function Header() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+          <button>Become a leader</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

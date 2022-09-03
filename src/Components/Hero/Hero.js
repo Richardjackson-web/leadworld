@@ -1,14 +1,25 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel';
-import Img1 from '../../Asset/Images/hero1.jpg';
-import Img2 from '../../Asset/Images/Hero2.jpg';
-import Img3 from '../../Asset/Images/Hero3.jpg';
+import './Hero.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import Carousel from 'react-bootstrap/Carousel';
+// import Img1 from '../../Asset/Images/hero1.jpg';
+// import Img2 from '../../Asset/Images/Hero2.jpg';
+// import Img3 from '../../Asset/Images/Hero3.jpg';
 
 export default function Hero() {
   return (
     <div>
-         <Carousel>
+
+        <div className="hero">.
+            <h1>
+                Raising <br /> a generation of young persons <br /> with
+                the heart for leadership influence.
+            </h1>
+            <div>
+            <button>Become a leader</button>
+            </div>
+        </div>
+         {/* <Carousel>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100 h-50"
@@ -44,7 +55,7 @@ export default function Hero() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
     </div>
   )
 }
