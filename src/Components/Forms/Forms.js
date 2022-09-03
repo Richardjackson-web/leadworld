@@ -3,7 +3,6 @@ import './Form.css';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 
 export default function Forms() {
@@ -24,7 +23,7 @@ export default function Forms() {
         <h1 className="register">Register for LPC Conference</h1>
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
+        <Form.Group controlId="validationCustom01">
           <Form.Label>First name</Form.Label>
           <Form.Control
             required
@@ -39,7 +38,7 @@ export default function Forms() {
             type="text"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group><br />
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Email Address</Form.Label>
           <Form.Control
@@ -47,7 +46,7 @@ export default function Forms() {
             type="text"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group><br />
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Phone Number</Form.Label>
           <Form.Control
@@ -55,7 +54,7 @@ export default function Forms() {
             type="text"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group><br />
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Expectations from the conference</Form.Label>
           <Form.Control
@@ -64,10 +63,10 @@ export default function Forms() {
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-      </Row>
-      <div className="button">
+        <div className="button">
       <Button type="submit">Submit form</Button>
       </div>
+      </Row>
     </Form>
     </div>
   )
