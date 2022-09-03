@@ -12,7 +12,7 @@ export default function Hero() {
 
         <div className="hero">.
             <h1>
-                Raising <br /> a generation of young persons <br /> with
+                Raising <br /> a generation of young persons <br className="break" /> with
                 the heart for leadership influence.
             </h1>
             <div>

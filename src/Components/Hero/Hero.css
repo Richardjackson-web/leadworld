@@ -28,7 +28,7 @@ button{
     font-weight: bold;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     
 h1{
     color: #fff;
@@ -38,3 +38,17 @@ h1{
     font-family: 'Roboto Slab', serif;
 }
 }
+
+@media screen and (max-width:460px) {
+    
+    h1{
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .break{
+        display: none;
+    }
+    }
