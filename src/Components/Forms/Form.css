@@ -1,5 +1,7 @@
 .back{
     background-color: rgb(78, 4, 78);
+    color: #fff;
+    text-align: left;
     padding-top: 4px;
 }
 .container{
