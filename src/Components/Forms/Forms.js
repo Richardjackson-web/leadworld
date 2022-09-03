@@ -21,7 +21,7 @@ export default function Forms() {
 
   return (
     <div className="container back">
-        <h1>Register for LPC Conference</h1>
+        <h1 className="register">Register for LPC Conference</h1>
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
@@ -31,7 +31,7 @@ export default function Forms() {
             type="text"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group><br />
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Last name</Form.Label>
           <Form.Control
