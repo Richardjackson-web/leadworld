@@ -40,38 +40,34 @@ export default function Forms() {
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustomUsername">
+        <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Email Address</Form.Label>
-          <InputGroup hasValidation>
-            <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-            <Form.Control
-              type="text"
-              aria-describedby="inputGroupPrepend"
-              required
-            />
-            <Form.Control.Feedback type="invalid">
-              Please choose a username.
-            </Form.Control.Feedback>
-          </InputGroup>
+          <Form.Control
+            required
+            type="text"
+          />
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-      </Row>
-      <Row className="mb-3">
-        <Form.Group as={Col} md="6" controlId="validationCustom03">
+        <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Phone Number</Form.Label>
-          <Form.Control type="text" required />
-          <Form.Control.Feedback type="invalid">
-            Please provide a valid city.
-          </Form.Control.Feedback>
+          <Form.Control
+            required
+            type="text"
+          />
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-        <Form.Group as={Col} md="3" controlId="validationCustom04">
+        <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Expectations from the conference</Form.Label>
-          <Form.Control type="text" required />
-          <Form.Control.Feedback type="invalid">
-            Please provide a valid state.
-          </Form.Control.Feedback>
+          <Form.Control
+            required
+            type="text"
+          />
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
       </Row>
+      <div className="button">
       <Button type="submit">Submit form</Button>
+      </div>
     </Form>
     </div>
   )
