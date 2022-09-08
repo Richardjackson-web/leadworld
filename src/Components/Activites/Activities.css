@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.act-head{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(78, 4, 78);
+    border-bottom: 4px solid rgb(190, 190, 2);
+    font-size: 42px;
+    margin-top: 40px;
+    /* text-decoration: underline; */
+}
+.act-para{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+.act-main{
+    margin-top: 40px;
+    background-color: rgb(255, 188, 255);
+}
+.ylp-head{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bolder;
+    background-color: rgb(78, 4, 78);
+    color: #fff;
+}
+.ylp-para{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+}
+.ylp-col1{
+    margin-top: 50px;
+}
+.ylp-col2{
+    margin-top: 100px;
+}
+
+@media screen and (max-width:800px){
+
+}
+
+@media screen and (max-width:460px){
+    
+}

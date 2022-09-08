@@ -9,6 +9,34 @@
     /* text-decoration: underline; */
 }
 .para-head{
+    margin-top: 80px;
     font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-size: 36px;
+    text-align: left;
+}
+.contain{
+    margin-top: 50px;
+}
+.img1{
+    width: 35rem;
+}
+
+@media screen and (max-width:800px){
+    .para-head{
+        font-size: 25px;
+        margin-top: 29px;
+        text-align: center;
+    }
+    .img1{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:460px){
+    .para-head{
+        margin-top: 0px;
+    }
+    .vis-img{
+        margin-left:50px;
+    }
 }
