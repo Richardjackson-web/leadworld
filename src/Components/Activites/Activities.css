@@ -43,7 +43,32 @@
 .visible{
     display: none;
 }
-
+.exl-head{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bolder;
+    background-color: rgb(78, 4, 78);
+    color: #fff;
+}
+.exl-para{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+}
+.exl-col{
+    margin-top: 50px;
+}
+.lpc-head{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bolder;
+    background-color: rgb(78, 4, 78);
+    color: #fff;
+}
+.lpc-para{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+}
+.lpc-col2{
+    margin-top: 40px;
+}
 @media screen and (max-width:990px){
     .vis-img{
         width: 22rem;
