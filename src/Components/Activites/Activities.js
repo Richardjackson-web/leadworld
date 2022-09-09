@@ -33,7 +33,7 @@ export default function Activities() {
                 </Col>
               </Row>
 
-              <Row>
+              <Row className="not-visible">
                 <Col sm="6">
                 <div className="vis-img">
                   <Card>
@@ -48,6 +48,24 @@ export default function Activities() {
                     on areas that cut across leadership, personal development,
                     time management, self confidence and lots more.
                   </p>
+                </Col>
+              </Row>
+
+              <Row className="visible">
+                <Col sm="6" className="ylp-col2">
+                <h1 className="ylp-head">Be More Network</h1>
+                  <p className="ylp-para">
+                    Young youths get mentored for 6 months
+                    on areas that cut across leadership, personal development,
+                    time management, self confidence and lots more.
+                  </p>
+                </Col>
+                <Col sm="6">
+                <div className="vis-img">
+                  <Card>
+                      <Card.Img variant="top" src={Img3} />
+                  </Card>
+                  </div>
                 </Col>
               </Row>
             </Container>

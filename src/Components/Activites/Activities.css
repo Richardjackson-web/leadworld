@@ -12,7 +12,7 @@
 .act-para{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
-    text-align: left;
+    text-align: justify;
     margin-left: 50px;
     margin-top: 10px;
 }
@@ -40,6 +40,9 @@
 .vis-img{
     width: 28rem;
 }
+.visible{
+    display: none;
+}
 
 @media screen and (max-width:990px){
     .vis-img{
@@ -66,7 +69,13 @@
     .ylp-col2{
         margin-left: px;
     }
+
 }
 @media screen and (max-width:500px) {
-    
+    .visible{
+        display: block;
+    }
+    .not-visible{
+        display:none;
+    }
 }
