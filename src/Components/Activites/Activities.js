@@ -15,8 +15,8 @@ export default function Activities() {
         career persons and leaders through our various mentorships, trainings, seminars and conferences.
         </p>
         <Container className="contain">
-              <Row>
-                <Col className="ylp-col1">
+              <Row className="ylp-row">
+                <Col sm="6" className="ylp-col1">
                 <h1 className="ylp-head">Lead Young Project</h1>
                   <p className="ylp-para">
                     LeadWorld picks a secondary school
@@ -24,9 +24,9 @@ export default function Activities() {
                     leadership and life skills.
                   </p>
                 </Col>
-                <Col>
+                <Col sm="6" >
                   <div className="vis-img">
-                  <Card style={{ width: '28rem' }}>
+                  <Card>
                       <Card.Img variant="top" src={Img2} />
                   </Card>
                   </div>
@@ -34,14 +34,14 @@ export default function Activities() {
               </Row>
 
               <Row>
-                <Col>
+                <Col sm="6">
                 <div className="vis-img">
-                  <Card style={{ width: '28rem' }}>
+                  <Card>
                       <Card.Img variant="top" src={Img3} />
                   </Card>
                   </div>
                 </Col>
-                <Col className="ylp-col2">
+                <Col sm="6" className="ylp-col2">
                 <h1 className="ylp-head">Be More Network</h1>
                   <p className="ylp-para">
                     Young youths get mentored for 6 months

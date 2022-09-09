@@ -8,16 +8,17 @@
     border-bottom: 4px solid rgb(190, 190, 2);
     font-size: 42px;
     margin-top: 40px;
-    /* text-decoration: underline; */
 }
 .act-para{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: left;
     margin-left: 50px;
+    margin-top: 10px;
 }
 .act-main{
-    margin-top: 40px;
+    padding-top: 40px;
+    margin-top: 10px;
     background-color: rgb(255, 188, 255);
 }
 .ylp-head{
@@ -36,11 +37,36 @@
 .ylp-col2{
     margin-top: 100px;
 }
-
-@media screen and (max-width:800px){
-
+.vis-img{
+    width: 28rem;
 }
 
-@media screen and (max-width:460px){
+@media screen and (max-width:990px){
+    .vis-img{
+        width: 22rem;
+    }
+    .ylp-col1{
+        margin-top: 6px;
+    }
+    .ylp-col2{
+        margin-top: 20px;
+    }
+    .ylp-row{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:730px){
+    .act-para{
+        font-size: 22px;
+    }
+    .vis-img{
+        width: 18rem;
+    }
+    .ylp-col2{
+        margin-left: px;
+    }
+}
+@media screen and (max-width:500px) {
     
 }

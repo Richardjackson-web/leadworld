@@ -20,8 +20,22 @@
 .img1{
     width: 35rem;
 }
-
-@media screen and (max-width:800px){
+@media screen and (max-width:990px) {
+    .contain{
+        margin-top: 15px;
+    }
+    .para-head{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .vis-img{
+        margin-left: 0px;
+    }
+    .img1{
+        width: 24rem;
+    }
+}
+@media screen and (max-width:770px){
     .para-head{
         font-size: 25px;
         margin-top: 29px;
@@ -30,9 +44,12 @@
     .img1{
         width: 20rem;
     }
+    .contain{
+        margin-top: 20px;
+    }
 }
 
-@media screen and (max-width:460px){
+@media screen and (max-width:500px){
     .para-head{
         margin-top: 0px;
     }
