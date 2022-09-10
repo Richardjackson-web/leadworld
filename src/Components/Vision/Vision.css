@@ -68,9 +68,9 @@
         margin-left: 40px;
     }
 }
-@media screen and (max-width:365px) {
+@media screen and (max-width:440px) {
     .para-head{
-    width: 21.5rem;
+    max-width: 24rem;
     padding: 15px;
     font-size: 23px;
     }
@@ -78,7 +78,7 @@
         font-size: 35px;
     }
     .vis-img1{
-        width: 16rem;
+        max-width: 20rem;
         margin-left: 8px;
     }
     .row-vis{

@@ -179,7 +179,7 @@
         padding-left: 30px;
     }
 }
-@media screen and (max-width:365px) {
+@media screen and (max-width:440px) {
     .act-head{
         font-size: 30px;
     }
@@ -188,14 +188,14 @@
         padding-left: 0px;
     }
     .ylp-head, .more-head, .exl-head, .lpc-head{
-        width: 20rem;
+        width: 25rem;
         font-size: 23px;
     }
     .ylp-para, .more-para, .exl-para, .lpc-para{
-        width: 20rem;
+        width: 24rem;
         font-size: 20px;
     }
     .vis-img, .more-img, .exl-img, .lpc-img{
-       width: 20rem;
+       width: 22rem;
     }
 }
