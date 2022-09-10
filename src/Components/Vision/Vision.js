@@ -12,7 +12,7 @@ export default function Vision() {
         <div>.
             <span className="vis-head">Vision</span>
             <Container className="contain">
-              <Row className="row">
+              <Row className="row-vis">
                 <Col sm="6">
                   <p className="para-head">To raise a generation of young persons with the heart 
                       for leadership excellence.
@@ -21,7 +21,7 @@ export default function Vision() {
                 <br />
                 <Col sm="6">
                   <div className="vis-img">
-                  <Card className="img1">
+                  <Card className="vis-img1">
                       <Card.Img variant="top" src={Img1} />
                   </Card>
                   </div>

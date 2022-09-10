@@ -21,9 +21,9 @@ export default function Activities() {
             {/* Young Lead Project */}
 
               <div className="act-one">
-                <Row className="ylp-row">
+                <Row className="ylp-row row">
                   <Col sm="6" className="ylp-col1">
-                    <h1 className="ylp-head">Lead Young Project</h1>
+                    <h1 className="ylp-head">Young Lead's Project</h1>
                     <p className="ylp-para">
                       LeadWorld picks a secondary school
                       to mentor the students for one year on
@@ -43,17 +43,17 @@ export default function Activities() {
             {/* Be More */}
 
               <div>
-                <Row className="not-visible">
+                <Row className="not-visible row">
                   <Col sm="6">
-                    <div className="vis-img">
+                    <div className="more-img">
                     <Card>
                       <Card.Img variant="top" src={Img3} />
                     </Card>
                     </div>
                   </Col>
-                  <Col sm="6" className="ylp-col2">
-                    <h1 className="ylp-head">Be More Network</h1>
-                    <p className="ylp-para">
+                  <Col sm="6" className="more-col2">
+                    <h1 className="more-head">Be More Network</h1>
+                    <p className="more-para">
                       Young youths get mentored for 6 months
                       on areas that cut across leadership, personal development,
                       time management, self confidence and lots more.
@@ -61,17 +61,17 @@ export default function Activities() {
                   </Col>
                 </Row>
 
-                <Row className="visible">
-                  <Col sm="6" className="ylp-col2">
-                    <h1 className="ylp-head">Be More Network</h1>
-                    <p className="ylp-para">
+                <Row className="visible row">
+                  <Col sm="6" className="more-col2">
+                    <h1 className="more-head">Be More Network</h1>
+                    <p className="more-para">
                       Young youths get mentored for 6 months
                       on areas that cut across leadership, personal development,
                       time management, self confidence and lots more.
                     </p>
                   </Col>
                   <Col sm="6">
-                    <div className="vis-img">
+                    <div className="more-img">
                     <Card>
                       <Card.Img variant="top" src={Img3} />
                     </Card>
@@ -82,7 +82,7 @@ export default function Activities() {
 
             {/* Exclusive Session */}
               <div>
-              <Row className="exclusive">
+              <Row className="exclusive row">
                   <Col sm="6" className="exl-col">
                     <h1 className="exl-head">Exclusive Session</h1>
                     <p className="exl-para">
@@ -104,15 +104,15 @@ export default function Activities() {
               {/* LPC Conference */}
 
               <div>
-                <Row className="not-visible">
+                <Row className="not-visible row">
                   <Col sm="6">
-                    <div className="vis-img">
+                    <div className="lpc-img img-a">
                     <Card>
                       <Card.Img variant="top" src={Img5} />
                     </Card>
                     </div>
                   </Col>
-                  <Col sm="6" className="lpc-col2">
+                  <Col sm="6" className="lpc-col2 lpc-a">
                     <h1 className="lpc-head">LPC Conference</h1>
                     <p className="lpc-para">
                       LPC Conference, the largest leadership conference
@@ -123,7 +123,7 @@ export default function Activities() {
                   </Col>
                 </Row>
 
-                <Row className="visible">
+                <Row className="visible row">
                 <Col sm="6" className="lpc-col2">
                     <h1 className="lpc-head">LPC Conference</h1>
                     <p className="lpc-para">
@@ -134,7 +134,7 @@ export default function Activities() {
                     </p>
                   </Col>
                   <Col sm="6">
-                    <div className="vis-img">
+                    <div className="lpc-img">
                     <Card>
                       <Card.Img variant="top" src={Img5} />
                     </Card>

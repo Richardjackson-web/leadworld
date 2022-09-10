@@ -13,7 +13,7 @@
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: justify;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 .act-main{
@@ -40,8 +40,27 @@
 .vis-img{
     width: 28rem;
 }
+.exl-img{
+    width: 28rem;
+}
 .visible{
     display: none;
+}
+.more-head{
+    font-family: 'Slabo 27px', serif;
+    font-weight: bolder;
+    background-color: rgb(78, 4, 78);
+    color: #fff;
+}
+.more-para{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+}
+.more-col2{
+    margin-top: 50px;
+}
+.more-img{
+    width: 28rem;
 }
 .exl-head{
     font-family: 'Slabo 27px', serif;
@@ -71,10 +90,13 @@
 }
 @media screen and (max-width:990px){
     .vis-img{
+        width: 26rem;
+    }
+    .more-img{
         width: 22rem;
     }
     .ylp-col1{
-        margin-top: 6px;
+        margin-top: 50px;
     }
     .ylp-col2{
         margin-top: 20px;
@@ -82,25 +104,78 @@
     .ylp-row{
         margin-bottom: 40px;
     }
+    .ylp-
+    .exl-para, .ylp-para, .more-para, .lpc-para{
+        font-size: 23px;
+    }
+    .exl-img{
+        width: 26rem;
+    }
+    .lpc-a{
+        padding-left: 100px;
+        width: 50%;
+    }
+    .img-a{
+        width: 20rem;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .lpc-img{
+        width: 23rem;
+    }
 }
 
-@media screen and (max-width:730px){
+@media screen and (max-width:860px){
     .act-para{
-        font-size: 22px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
-    .vis-img{
-        width: 18rem;
+    .vis-img, .exl-img{
+        width:24rem;
     }
-    .ylp-col2{
-        margin-left: px;
-    }
-
 }
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:766px){
+    .act-para{
+        font-size: 24px;
+    }
+    .vis-img, .more-img, .exl-img, .lpc-img{
+        width: 30rem;
+    }
+    .ylp-head, .more-head, .exl-head, .lpc-head{
+        width: 35rem;
+    }
+    .ylp-para, .more-para, .exl-para, .lpc-para{
+        width: 35rem;
+    }
+    .more-col2{
+        padding-right: 10px;
+    }
+    .row{
+        display: block;
+    }
+    .not-visible{
+        display: none;
+    }
+}
+@media screen and (max-width:550px) {
     .visible{
         display: block;
     }
     .not-visible{
         display:none;
+    }
+    .img1{
+        width: 30rem;
+        padding-left: 70px;
+    }
+    .ylp-head, .more-head, .exl-head, .lpc-head{
+        width: 32rem;
+    }
+    .ylp-para, .more-para, .exl-para, .lpc-para{
+        width: 32rem;
+    }
+    .vis-img, .more-img, .exl-img, .lpc-img{
+        padding-left: 30px;
     }
 }

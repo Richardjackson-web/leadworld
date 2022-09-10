@@ -17,7 +17,7 @@
 .contain{
     margin-top: 50px;
 }
-.img1{
+.vis-img1{
     width: 35rem;
 }
 @media screen and (max-width:990px) {
@@ -28,10 +28,7 @@
         text-align: center;
         margin-top: 0px;
     }
-    .vis-img{
-        margin-left: 0px;
-    }
-    .img1{
+    .vis-img1{
         width: 24rem;
     }
 }
@@ -41,19 +38,33 @@
         margin-top: 29px;
         text-align: center;
     }
-    .img1{
+    .vis-img1{
         width: 20rem;
     }
     .contain{
         margin-top: 20px;
     }
 }
-
-@media screen and (max-width:500px){
+@media screen and (max-width:766px){
     .para-head{
-        margin-top: 0px;
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        width: 600px;
+        padding-right: 50px;
     }
-    .vis-img{
-        margin-left:50px;
+    .vis-img1{
+        width: 35rem;
+    }
+}
+@media screen and (max-width:550px){
+    .para-head{
+        font-size: 29px;
+        padding: 10px;
+        width: 500px;
+    }
+    .vis-img1{
+        width: 25rem;
+        margin-left: 40px;
     }
 }
