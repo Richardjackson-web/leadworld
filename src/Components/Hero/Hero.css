@@ -76,3 +76,8 @@
         font-size: 17px;
     }
     }
+    @media screen and (max-width:365px){
+        .heading-hero{
+            font-size: 31px;
+        }
+    }

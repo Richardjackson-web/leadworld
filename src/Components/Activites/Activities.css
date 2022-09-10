@@ -179,3 +179,23 @@
         padding-left: 30px;
     }
 }
+@media screen and (max-width:365px) {
+    .act-head{
+        font-size: 30px;
+    }
+    .act-para{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .ylp-head, .more-head, .exl-head, .lpc-head{
+        width: 20rem;
+        font-size: 23px;
+    }
+    .ylp-para, .more-para, .exl-para, .lpc-para{
+        width: 20rem;
+        font-size: 20px;
+    }
+    .vis-img, .more-img, .exl-img, .lpc-img{
+       width: 20rem;
+    }
+}
