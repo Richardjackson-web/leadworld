@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.tes-head{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(190, 190, 2);
+    border-bottom: 4px solid rgb(78, 4, 78);
+    font-size: 42px;
+    margin-top: 40px;
+}
+/* .tes-para{
+    margin-top: 80px;
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    text-align: left;
+} */
+.tes-contain{
+    margin-top: 50px;
+}

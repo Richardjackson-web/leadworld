@@ -3,6 +3,7 @@
     color: #fff;
     text-align: left;
     padding-top: 4px;
+    max-width: 100vw;
 }
 .container{
     margin-top: 20px;
@@ -15,6 +16,20 @@
     margin-bottom: 20px;
 }
 .button{
-    align-self: center;
+    margin: auto;
     padding-bottom: 30px;
+}
+.but{
+    background-color: rgb(149, 14, 149);
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 153, 234);
+}
+.rad{
+    margin-top: 20px;
+
+}
+.gender{
+    margin-right: 15px;
 }
